@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link to='/ContactUs'>Contact-Us</Link>
           </div>
           <div className= 'flex justify-around text-black gap-8 full px-5 text-lg font-bold font-sans '>
-               <a className='bg-white rounded-full w-25 text-center' href="https://awtbharat.com/Loan_app/Main/login"> Khan</a>
+               <a className='bg-white rounded-full w-25 text-center' href="https://awtbharat.com/Loan_app/Main/login"> Login</a>
              <Link className='bg-white gap-2 px-7 rounded-full'to='/Download'>Download</Link>
           </div>
 
