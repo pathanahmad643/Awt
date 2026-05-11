@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+html,body,#root{
+    height: 100%;
+    width: 100%;
+}
+.vision button:active{
+    transition: 0.5s ease-in-out 1s ;
+    height: 250px;
+    
+}
+#about:hover{
+    background-color: red;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+Link button{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 300;
+  background-color: rgb(39, 162, 239);
+
+}
+
